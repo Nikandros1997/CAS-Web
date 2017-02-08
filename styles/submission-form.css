@@ -1,0 +1,305 @@
+#form-section {
+	/*if u remove this statement the whole section will be destroyed.*/
+	/*position: absolute;*/
+	width: 90%;
+	/*min-width: 400px;*/
+	height: 950px;
+	margin: 0px auto;
+	background-color: white;
+	box-shadow: 0px 0px 1px black;
+}
+
+#left {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 70%;
+}
+
+#right {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	width: 30%;
+	overflow: hidden;
+}
+
+#left-top {
+	position: absolute;
+	top: 0px;
+	height: 35%;
+	width: 100%;
+}
+
+#left-bottom {
+	position: absolute;
+	bottom: 0px;
+	height: 65%;
+	width: 100%;
+	text-align: center;
+}
+
+#lb-1 {
+	position: absolute;
+	width: 100%;
+	height: 46%;
+	top: 0px;
+	left: 0px;
+}
+
+#lb-2 {
+	position: absolute;
+	width: 100%;
+	height: 46%;
+	top: 46%;
+	left: 0px;
+}
+
+#lb-3 {
+	position: absolute;
+	width: 100%;
+	height: 4%;
+	bottom: 4%;
+	left: 0px;
+}
+
+#lb-4 {
+	position: absolute;
+	width: 100%;
+	height: 4%;
+	bottom: 0px;
+	left: 0px;
+}
+
+#lt-left {
+	position: absolute;
+	left: 0px;
+	height: 100%;
+	width: 50%;
+	text-align: center;
+}
+
+#lt-right {
+	position: absolute;
+	right: 0px;
+	height: 100%;
+	width: 50%;
+}
+
+#top {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 10%;
+}
+
+#bottom {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 90%;
+}
+
+.oneFeedback:hover {
+	background-color: white;
+}
+
+.onField {
+	pointer-events: none;
+	font-size: 20px;
+	font-style: italic;
+	transition: .5s;
+	position: relative;
+	top: -35px;
+}
+
+.pined {
+	font-size: 15px;
+	pointer-events: none;
+	font-style: italic;
+	pointer-events: initial;
+	position: relative;
+	top: -70px;
+}
+
+label {
+	color: #ff8900;
+}
+
+.fields {
+	position: relative;
+	height: 35px;
+	width: 100%;
+	margin-top: 35px;
+	float: left;
+	margin: 35px auto;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.inside-field {
+	height: 100%;
+	width: 50%;
+	margin: 0px auto;
+}
+
+.txt-fields {
+	background-color: #fff3e5;
+	border: none;
+	border-bottom: solid 2px #ff8900;
+	color: #ff8900;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 3px;
+	height: 100%;
+	width: 100%;
+}
+
+.txt-fields:focus, .txt-fields:active {
+	outline: none;
+	box-shadow: 0px 1px 5px #000;
+}
+
+.txt-fields:active {
+	background-color: #ffe7cc;
+}
+
+.txt-fields:focus + .onField, .txt-fields:active + .onField {
+	top: -50px;
+	font-size: 40px;
+}
+
+.txt-sub-form {
+	position: absolute;
+	background-color: #99ccff;
+	width: 70%;
+	height: 80%;
+	top: 10%;
+	left: calc(15%);
+	border-radius: 3px;
+	border: solid 3px #1a8cff;
+	margin-bottom: 15px;
+	font-size: 0.9em;
+	overflow: scroll;
+	float: left;
+	line-height: 1.5em;
+	resize: none;
+}
+
+.txt-sub-form:focus {
+	outline: none;
+}
+
+.check {
+	margin-left: 15px;
+}
+
+#image-uploader {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+	text-align: center;
+}
+
+#uploader {
+	width: 160px;
+}
+
+#image-inspector {
+	position: absolute;
+	width: 100%;
+	height: 94%;
+	top: 6%;
+	left: 0px;
+	background-color: black;
+	overflow: scroll;
+}
+
+#image-1 {
+	cursor: pointer;
+}
+
+#map-container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#popup {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+#popup_background {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.8;
+}
+
+#popup_inside2 {
+	position: fixed;
+	width: 15%;
+	height: 10%;
+	background-color: purple;
+	border: solid 2px black;
+	border-radius: 100px;
+	opacity: 0;
+	transition: opacity .5s;
+	top: 45%;
+	left: 42.5%;
+}
+
+/*select {
+	height: 100%;
+	width: 100%;
+
+    border-radius:15px;
+}*/
+
+/*div #select {
+	height: 90%;
+	width: 40%;
+	float: left;
+}*/
+
+div #submit {
+	height: 90%;
+	width: 45%;
+	float: right;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	margin: 5px;
+    background-color: white;
+}
+
+#type {
+	background: transparent;
+	color: #ff8900;
+	font-size: 20px;
+}
+
+select {
+	background: transparent;
+}
+
+#select {
+	height: 90%;
+	width: 45%;
+	float: left;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	margin: 5px;
+    background-color: white;
+}
+
+

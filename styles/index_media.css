@@ -1,0 +1,179 @@
+@media screen and (max-width: 1662px) {
+	div#solution, iframe {
+		height: 500px;
+	}
+
+	@media screen and (max-width: 1214px) {
+		div#solution, iframe {
+			height: 400px;
+		}
+
+		@media screen and (max-width: 850px) {
+			nav ul, nav:active ul {
+				display: none;
+				position: absolute;
+				padding: 20px;
+				background: grey;
+				border: 1px solid white;
+				right: 20px;
+				top: 60px;
+				width: 50%;
+				max-width: 200px;
+				border-radius: 2px 0px 2px;
+			}
+
+			#menu {
+				display: inline-block;
+				top: 0px;
+				right: 0px;
+			}
+
+			div#solution, iframe {
+				margin-bottom: 70px;
+				height: 250px;
+			}
+
+			iframe {
+				height: 300px;
+			}
+
+			div#solution a {
+				margin-top: 5%;
+			}
+
+			section.index img {
+				width: 100%;
+				height: auto;
+			}
+
+			section.index {
+				height: 450px;
+			}
+
+			section.index {
+				margin-top: 0px;
+				height: 380px;
+			}
+
+			h1 {
+				padding-bottom: 0px;
+			}
+
+			h2 {
+				font-size: 1em;
+			}
+
+			hr {
+			    margin-bottom: 70px;
+			}
+
+			nav:hover ul {
+				display: block;
+				padding: 0px;
+				top: 0px;
+				right: 40px;
+			}
+
+			nav ul li {
+				text-align: center;
+				width: 100%;
+				padding: 10px 0px;
+				margin: 0px;
+				border-bottom: 1px solid white;
+			}
+
+			/*invisible photos & section in different lines*/
+			@media screen and (max-width: 600px) {
+				section.index {
+					width: 90%;
+					padding: 0px 5%;
+					margin-left: 0px;
+					margin-right: 0px;
+					height: 450px;
+				}
+
+				div#solution, iframe {
+					position: initial;
+					width: 90%;
+					height: 300px;
+					padding: 0px 5%;
+					margin-left: 0px;
+					margin-right: 0px;
+					border: none;
+					margin-bottom: 50px;
+				}
+
+				iframe {
+					padding: 0px 5%;
+				}
+
+				div#solution a {
+					margin-top: 0px;
+				}
+
+				hr {
+					margin-bottom: 50px;
+				}
+
+				@media screen and (max-width: 355px) {
+					#menu {
+						display: none;
+					}
+
+					nav ul, nav:active ul {
+						display: none;
+						position: absolute;
+						padding: 20px;
+						background: grey;
+						border: 1px solid white;
+						right: 20px;
+						top: 60px;
+						width: 50%;
+						border-radius: 2px 0px 2px;
+					}
+
+					body {
+						min-width: 304px;
+					}
+
+					header {
+						height: 120px;
+					}
+
+					nav {
+						float: left;
+						margin: 0px;
+						width: 100%;
+					}
+
+					h1 {
+						padding-top: 140px;
+					}
+
+					div#solution, iframe {
+						height: 220px;
+					}
+
+					#verySmallMenu {
+						display: inline-block;
+						position: relative;
+						width: 100%;
+					}
+
+					#logo {
+						top: 80px;
+					}
+
+					nav:hover ul {
+						display: block;
+						padding: 0px;
+						top: 105px;
+						left: 0px;
+						width: 100%;
+						max-width: 100%;
+					}
+				}
+			}
+		}
+	}
+}

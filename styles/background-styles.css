@@ -1,0 +1,250 @@
+body {
+	background-color: chocolate;
+}
+
+#background-img {
+	z-index: 0;
+	position: fixed;
+	top: -1px;
+	left: -4px;
+	width: 102%;
+	height: 101%;
+	-webkit-filter: blur(1px);
+}
+
+header {
+	z-index: 10;/*Always one less than the nav*/
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 90px;
+	width: 97%;
+	background-color: brown;
+}
+
+#login {
+	z-index: 2;
+	position: fixed;
+	margin: 5px;
+	height: 70px;
+	width: 350px;
+}
+
+table {
+	z-index: 4;
+	width: 100%;
+}
+
+td {
+	z-index: 5;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#login-form {
+	z-index: 3;
+	position: absolute;
+	height: 70px;
+	width: 100%;
+	padding: 7px;
+}
+
+#login-back {
+	z-index: 3;
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	background-color: white;
+	opacity: 0.5;
+	border: solid 1px;
+	border-color: brown;
+	border-radius: 8px;
+}
+
+#small-links {
+	font-size: 11px;
+	text-decoration: none;
+	color: blue;
+}
+
+#small-links:hover {
+	color: white;
+	background: black;
+	border-radius: 5px;
+}
+
+nav {
+	z-index: 11;/*Always one more than the header*/
+	position: fixed;
+	top: -2px;
+	/*Get the width of the screen with js and set the position of the navigation to see it whole*/
+	right: -114px;
+}
+
+/*Add an onClick event in js, in order for the touch-pad users to be able to click on the menu tab*/
+nav:hover {
+	z-index: 11;/*Always one more than the header*//*Remove it before the end of the project.*/
+	position: fixed;
+	top: -2px;
+	right: -2px;
+}
+
+ul {
+	z-index: 2;
+	list-style-type: none;
+	margin-top: 19px;
+	margin-left: 8px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+#menu-tab {
+	z-index: 2;
+	position: fixed;
+	width: 3%;
+	height: auto;
+	margin: 3px;
+	background-color: red;
+	box-shadow: 0px 1px 5px #000;
+	font-size: 17px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.menu-item {
+	z-index: 3;
+	position: relative;
+	top: -17px;
+	left: -2px;
+	height: 29px;
+	width: 100px;
+	border-left: solid 1px;
+	border-top: solid 1px;
+	border-right: solid 1px;
+	padding: 5px;
+	background-color: white;
+	text-align: center;
+}
+
+.menu-item:hover {
+	/*Remove after completion*/
+	z-index: 3;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#last-menu-item {
+	z-index: 3;
+	position: relative;
+	top: -17px;
+	left: -2px;
+	height: 31px;
+	width: 100px;
+	border: solid 1px;
+	padding: 5px;
+	background-color: white;
+	text-align: center;
+}
+
+#last-menu-item:hover {
+	z-index: 3;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#registration {
+	z-index: 1;
+	position: fixed;
+	width: 50%;
+	height: 50%;
+	min-width: 240px;
+	min-height: 260px;
+	top: 25%;
+	left: 25%;
+	background-color: white;
+	border: 10px solid grey;
+}
+
+#reg-form {
+	z-index: 2;
+	width: 80%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 10%;
+} 
+
+h1 {
+	z-index: 2;
+	text-align: center;
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: black;
+	color: white;
+}
+
+h2 {
+	background-color: transparent;
+}
+
+section {
+	z-index: 1;
+	position: relative;
+	width: 50%;
+	height: 50%;
+	top: 0px;
+	left: 25%;
+	margin-top: 120px;
+	margin-bottom: 200px;
+	background-color: white;
+	text-align: center;
+}
+
+.section-img {
+	z-index: 1;
+	position: relative;
+	width: 500px;
+	height: auto;
+	top: 0px;
+	left: 0px;
+	margin: 20px;
+}
+
+.section-text {
+	z-index: 1;
+	position: relative;
+	width: auto;
+	height: auto;
+	font-size: 30px;
+	color: rgb(102, 153, 153);
+	font-family: 'Lobster', cursive;
+}
+
+footer {
+	z-index: 10;
+	position: relative;
+	width: 101%;
+	height: 100px;
+	bottom: -10px;
+	left: -10px;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+/*
+#basic-form-of-an-id-or-class {
+	z-index: x;
+	position: c;
+	width: v;
+	height: b;
+	top: z;
+	left: a;
+	margin: n;
+	padding: m;
+}
+*/

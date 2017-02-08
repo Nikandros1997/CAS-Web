@@ -1,0 +1,19 @@
+#container {
+	float: right;
+	height: 80%;
+	width: 100%;
+	margin-top: 10%;
+	padding: 5% 20%;
+}
+
+div.line {
+	position: relative;
+	margin-bottom: 25px;
+	height: 50px;
+}
+
+div.line label {
+	margin-right: 70px;
+	font-size: 24px;
+	float: left;
+}

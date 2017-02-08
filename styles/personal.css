@@ -1,0 +1,45 @@
+#personal {
+	height: 500px;
+}
+
+#wrap {
+	height: 100%;
+	margin: 0px auto;
+}
+
+#container {
+	float: right;
+	height: 80%;
+	width: 80%;
+	margin: 3% 5%;
+	padding: 2% 5%;
+	border: 1px solid black;
+
+	font-size: 24px;
+    border-radius: 10px;
+    background-color: wheat;
+    box-shadow: inset 0px 1px 5px #000;
+    max-width: 800px;
+}
+
+
+div.line p {
+	height: 50px;
+	font-size: 24px;
+	float: right;
+}
+
+div.line {
+	position: relative;
+	margin-bottom: 25px;
+	height: 50px;
+}
+
+div.line label {
+	font-size: 24px;
+	float: left;
+}
+
+table {
+
+}
